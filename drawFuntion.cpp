@@ -1,12 +1,11 @@
 #ifdef _MSC_VER
 #define _CRT_SECURE_NO_WARNINGS
 #endif
-#include"drawFuntion.h"
-#include <math.h>
-#include <windows.h>
-#include <tchar.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include<math.h>
+#include<windows.h>
+#include<tchar.h>
+#include<stdio.h>
+#include<stdlib.h>
 /// <summary>
 /// Çò
 /// </summary>

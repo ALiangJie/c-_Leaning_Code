@@ -1,13 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
     <Filter Include="源文件">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="源文件\输入输出数字个数函数">
+      <UniqueIdentifier>{1a0393fa-4bde-42cf-a3e1-4bfb4e2dfb5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\画图函数">
+      <UniqueIdentifier>{80248284-ceb9-442e-88b1-8091576a73c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\书店类">
+      <UniqueIdentifier>{87c8c52b-a4f6-47e9-a827-d4e28516929b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\排序函数">
+      <UniqueIdentifier>{3a857657-e08e-47d2-bee9-c6db3f670baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\排序函数\比较">
+      <UniqueIdentifier>{6e532812-50f9-4462-b9c6-e26cedf7217e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\排序函数\选择">
+      <UniqueIdentifier>{8aff02de-f246-4d69-97f9-d8c8ed8c99d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\排序函数\插入">
+      <UniqueIdentifier>{b0d93df4-4518-489e-b01e-aa5969283a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\输入输出数字个数函数\输入输出">
+      <UniqueIdentifier>{f3aa1742-726d-4cdb-b167-2ec96be65149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\输入输出数字个数函数\输入个数">
+      <UniqueIdentifier>{dd27dfc2-bd5b-430b-bb9b-4ecc7e2b1675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\排序函数\其他">
+      <UniqueIdentifier>{6d67b179-870f-4823-9d8a-d9f376d48a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\交换函数">
+      <UniqueIdentifier>{b74f83f2-c76e-40f6-8b0a-2427976159fc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -15,18 +48,48 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="drawFuntion.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\画图函数</Filter>
+    </ClCompile>
+    <ClCompile Include="insertSort.cpp">
+      <Filter>源文件\排序函数\插入</Filter>
+    </ClCompile>
+    <ClCompile Include="bubblingSort.cpp">
+      <Filter>源文件\排序函数\比较</Filter>
+    </ClCompile>
+    <ClCompile Include="selectionSort.cpp">
+      <Filter>源文件\排序函数\选择</Filter>
+    </ClCompile>
+    <ClCompile Include="coutNumber.cpp">
+      <Filter>源文件\输入输出数字个数函数\输入输出</Filter>
+    </ClCompile>
+    <ClCompile Include="inputNumber.cpp">
+      <Filter>源文件\输入输出数字个数函数\输入输出</Filter>
+    </ClCompile>
+    <ClCompile Include="inputNumberRequest.cpp">
+      <Filter>源文件\输入输出数字个数函数\输入个数</Filter>
+    </ClCompile>
+    <ClCompile Include="shellSort.cpp">
+      <Filter>源文件\排序函数\插入</Filter>
+    </ClCompile>
+    <ClCompile Include="stackSort.cpp">
+      <Filter>源文件\排序函数\选择</Filter>
+    </ClCompile>
+    <ClCompile Include="quickSort.cpp">
+      <Filter>源文件\排序函数\比较</Filter>
+    </ClCompile>
+    <ClCompile Include="radixSort.cpp">
+      <Filter>源文件\排序函数\其他</Filter>
+    </ClCompile>
+    <ClCompile Include="mergeSort.cpp">
+      <Filter>源文件\排序函数\其他</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="headFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="Sales_data.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="stdFun.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="drawFuntion.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\书店类</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

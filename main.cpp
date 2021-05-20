@@ -1,13 +1,4 @@
-#include"stdFun.h"
-#include"drawFuntion.h"
-#include"Sales_data.h"
-using namespace std;
-void drawBall();
-void drawHeart1();
-void drawHeart2();
-void drawHeart3();
-void drawHeart4();
-void drawHeart5();
+#include"headFile.h"
 
 int main()
 {
@@ -15,8 +6,10 @@ int main()
 	//data1.revenun = 1;
 	//cout << data1.revenun <<" "<< data1.units_sold<<endl;
 
-	drawHeart5();
+	//drawHeart5();
+
+	vector<float> a = cin_numbers(inputNumberRequest(), a);
+	a = selectionSort(a);
+	cout_numbers("all", 0, a);
 	return 0;
 }
-
-

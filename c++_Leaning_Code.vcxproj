@@ -139,13 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="mergeSort.cpp" />
+    <ClCompile Include="bubblingSort.cpp" />
+    <ClCompile Include="coutNumber.cpp" />
     <ClCompile Include="drawFuntion.cpp" />
+    <ClCompile Include="inputNumber.cpp" />
+    <ClCompile Include="inputNumberRequest.cpp" />
+    <ClCompile Include="insertSort.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="quickSort.cpp" />
+    <ClCompile Include="radixSort.cpp" />
+    <ClCompile Include="selectionSort.cpp" />
+    <ClCompile Include="shellSort.cpp" />
+    <ClCompile Include="stackSort.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="drawFuntion.h" />
+    <ClInclude Include="headFile.h" />
     <ClInclude Include="Sales_data.h" />
-    <ClInclude Include="stdFun.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
