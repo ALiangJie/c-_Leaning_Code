@@ -21,4 +21,5 @@ void cout_numbers(string re, int n, vector<float> a);
 int inputNumberRequest();
 vector<int> selectionSort(vector<int> a);
 vector<float> selectionSort(vector<float> a);
+vector<float> bubblingSort(vector<float> a);
 

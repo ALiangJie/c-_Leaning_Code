@@ -9,7 +9,8 @@ int main()
 	//drawHeart5();
 
 	vector<float> a = cin_numbers(inputNumberRequest(), a);
-	a = selectionSort(a);
+	//a = selectionSort(a);
+	a = bubblingSort(a);
 	cout_numbers("all", 0, a);
 	return 0;
 }

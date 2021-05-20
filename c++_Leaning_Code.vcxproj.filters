@@ -39,8 +39,71 @@
     <Filter Include="源文件\排序函数\其他">
       <UniqueIdentifier>{6d67b179-870f-4823-9d8a-d9f376d48a52}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\交换函数">
-      <UniqueIdentifier>{b74f83f2-c76e-40f6-8b0a-2427976159fc}</UniqueIdentifier>
+    <Filter Include="源文件\查找函数">
+      <UniqueIdentifier>{df72a5f7-a4e5-4a2c-85d3-be8f471566f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\查找函数\顺序查找">
+      <UniqueIdentifier>{86b72bb5-572d-4343-a54b-648159a7a223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\查找函数\二分查找">
+      <UniqueIdentifier>{33095078-9eb5-4994-887c-b66859d0ca1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\查找函数\插值查找">
+      <UniqueIdentifier>{9c013bbe-8ddf-4a1c-848b-766220f6ee8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\查找函数\斐波那契查找">
+      <UniqueIdentifier>{575f42a5-04c3-4d62-b558-f920f1bd2bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\查找函数\树表查找">
+      <UniqueIdentifier>{db5acbda-f70b-4bdd-9dfc-f2ab2bc66250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\查找函数\树表查找\二叉树查找">
+      <UniqueIdentifier>{e2b58de8-c5fa-4bb8-8bf3-1f7a8bcec6d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\查找函数\树表查找\平衡查找树">
+      <UniqueIdentifier>{27c0c531-e415-46a5-ac56-b91c323a3c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\查找函数\树表查找\红黑树">
+      <UniqueIdentifier>{4a1d0bec-1f1e-4f9e-b5bf-f097969cd695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\查找函数\树表查找\B树和B+树">
+      <UniqueIdentifier>{d80b1820-d5ba-4cfc-92db-6cdd747d471c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\查找函数\分块查找">
+      <UniqueIdentifier>{916b1196-1b84-438f-b668-67b95eeed4a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\查找函数\哈希查找">
+      <UniqueIdentifier>{5c1a9664-d764-4421-ab98-a23c961c5dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图">
+      <UniqueIdentifier>{0f11aa83-9d41-4656-9533-f1db704c647d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图\广度优先搜索">
+      <UniqueIdentifier>{289d98e8-2a15-4f57-b957-f5f1ac885ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图\深度优先搜索">
+      <UniqueIdentifier>{8ac756f8-b3d2-4d80-b636-1f480ac0213d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图\有向无权图的最短路径">
+      <UniqueIdentifier>{af015fbb-ddb8-460f-a33d-bc04c667ae65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图\最小生成树">
+      <UniqueIdentifier>{38b795fd-50df-4b9c-a3d5-75c33a312e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图\最小生成树\Prim">
+      <UniqueIdentifier>{721b6bd6-64e2-496d-aa01-0f03ba87748b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图\最小生成树\Kruskal">
+      <UniqueIdentifier>{74b94f63-65c7-4cb6-843d-c707f104641b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图\最短路径">
+      <UniqueIdentifier>{3655fbf4-ab21-44ea-9b08-d18b7b410ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图\最短路径\Dijkstra">
+      <UniqueIdentifier>{68e5440a-8b2b-4614-8958-be2180d4840d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图\最短路径\Floyd">
+      <UniqueIdentifier>{d3974f4e-5f76-410b-8a8c-a6ef468bc807}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
